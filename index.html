@@ -8,20 +8,66 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <style type="text/css">
-            header {
+        .header {
                 font-family: Arial, Verdana, Sans-serif;
                 font-size: 16px;
                 color:#303846;
-                }
-            </style>
-         Шапка сайта
+                display:flex;
+                width: auto;
+  height: auto;  
+  background-color: white;
+                
+ }
+ 
+ #logo {
+    display: flex;
+    padding: 20px;
+    margin:0px;
+    float:left; 
+    margin-top:2px; 
+    margin-right:50px;
+    background-image: url(img/ocean.jpg)
+}
+
+#menu {
+    width: 100px;
+    margin: auto;
+	display: inline-block;
+}
+ul {
+    display: flex;
+  list-style: none;
+  
+}
+a {
+    text-decoration: none; 
+    display: block;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+}
+                
+                </style>
+
+                	<div id="logo">
+                        <a href="/"><img src="images/лого.png" alt="Логотип" width="70" height="50"><b>Лунное море</b></a>
+                        
+                    
+                    <div id="menu"> 
+                        <ul>
+                            <li><a href="/"><b>Преимущества</b></a></li>
+			                <li><a href="/"><b>О ЖК</b></a></li>
+			                <li><a href="/"><b>Место для отдыха</b></a></li>
+                        </ul>
+                        
+    </div>
     </header>
 
-<main>
+<main class=main>
     <style type="text/css">
-    main {
+    .main {
         font-family: Arial, Verdana, Sans-serif;
         font-size: 16px;
         color:#303846;
@@ -29,8 +75,8 @@
     </style>
     Уникальный контент сайта
   </main>
-  <footer>   <style type="text/css">
-  footer {
+  <footer class=footer>   <style type="text/css">
+  .footer {
     font-family: Arial, Verdana, Sans-serif;
         font-size: 16px;
         color:#303846;
@@ -40,4 +86,3 @@
 </footer>
 </body>
 </html>
-
