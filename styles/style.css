@@ -6,7 +6,12 @@ html {
 *::before {
   box-sizing: border-box;
 }
+a { 
+  color: #000;
+  text-decoration: none;
 
+
+}
 body {
 
 }
@@ -18,7 +23,38 @@ body {
 
 }
 
+
 .header__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 80px;
 }
+
+.logo { 
+  font-family: Arial, Verdana, Sans-serif;
+  font-size: 16px;
+  color:#303846;
+  font-weight: 700;
+  
+}
+ 
+.logo div {
+  text-align: center;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__list li {
+  list-style-type: none;
+  margin-left: 30px;
+ }
+
+ .menu__list a{
+  font-family: Arial, Verdana, Sans-serif;
+  font-size: 16px;
+  color:#303846;
+  font-weight: 700;
+ }
