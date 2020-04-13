@@ -13,13 +13,15 @@ a {
 
 }
 body {
+  font-family: Arial, Helvetica, sans-serif;
+    color: #303846;
 
 }
 
 .container {
   max-width: 1170px;  
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0px;
 
 }
 
@@ -28,15 +30,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 60px;
+  
 }
+
 
 .logo { 
   font-family: Arial, Verdana, Sans-serif;
   font-size: 16px;
   color:#303846;
   font-weight: 700;
-  
+  float:left;
+  vertical-align: middle;
 }
  
 .logo div {
@@ -52,9 +57,6 @@ body {
   margin-left: 30px;
  }
 
- .menu__list a{
-  font-family: Arial, Verdana, Sans-serif;
-  font-size: 16px;
-  color:#303846;
+ .menu__list a {
   font-weight: 700;
  }
