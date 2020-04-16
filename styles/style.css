@@ -14,14 +14,14 @@ a {
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
     color: #303846;
 
 }
-
+ 
 .container {
-  max-width: 1170px;  
-  margin: 0 auto;
-  padding: 0 0px;
+  width: 100%;
+  height: 70px;  
 
 }
 
@@ -36,16 +36,16 @@ body {
 
 
 .logo { 
-  font-family: Arial, Verdana, Sans-serif;
-  font-size: 16px;
-  color:#303846;
-  font-weight: 700;
-  float:left;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
  
 .logo div {
+  display: flex;
   text-align: center;
+  padding: 15px;
+  font-weight: 700;
 }
 
 .menu__list {
@@ -54,7 +54,7 @@ body {
 
 .menu__list li {
   list-style-type: none;
-  margin-left: 30px;
+  margin-left: 15px;
  }
 
  .menu__list a {
