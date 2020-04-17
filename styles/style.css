@@ -60,3 +60,35 @@ body {
  .menu__list a {
   font-weight: 700;
  }
+
+ .main-blok1 {
+  display: flex;
+   background: url(images/banner.png);
+   width: 100%;
+   
+ }
+
+.main-blok1__images {
+ display:  flex;
+ position: relative;
+ box-sizing: border-box;
+
+  }
+
+ .img-center {
+   display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  left: 30px;
+  top: 153px;
+ 
+ }
+ .main-blok1__info {
+  display: flex;
+  padding: 20px;
+  position: fixed;
+  color: white;
+ 
+ }
+
