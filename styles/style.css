@@ -7,7 +7,6 @@ html {
   box-sizing: border-box;
 }
 a { 
-  color: #000;
   text-decoration: none;
 
 
@@ -62,8 +61,6 @@ body {
   font-weight: 700;
  }
 
-.main {
-}
 .main-blok1 {
   display: flex;
    background: url(images/banner.png);
@@ -100,10 +97,17 @@ body {
   color: white;
   left: 550px;
   top: 790px;
+  font-weight: bold;
 }
-.main-blok1__button {
-  padding: 20px;
-  position: absolute;
+.button1 {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 9px;
   color: white;
-  border: 3px solid white;
+  padding: 15px 32px;
+  font-size: 16px;
+  position: absolute;
+  left: 600px;
+  top: 940px;
+  font-weight: bold;
 }
