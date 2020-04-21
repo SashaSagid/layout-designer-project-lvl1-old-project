@@ -111,3 +111,74 @@ body {
   top: 940px;
   font-weight: bold;
 }
+.main-blok2 {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  margin: 40px;
+  box-sizing: border-box;
+  color: black;
+ position: relative;
+ 
+}
+
+
+.section1 {
+  align-self: flex-start;
+  position: absolute;
+  top:-20px;
+  left:50px;
+}
+.section2 {
+  align-self: center;
+  position: absolute;
+  top: -20px;
+  left: 450px;
+}
+.section3 {
+  align-self: flex-end;
+  position: absolute;
+  top:-20px;
+  right: 100px;
+
+}
+
+.vid {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+}
+
+.infra {
+  display: inline-block;
+  padding: 20px;
+  flex-grow: unset;
+}
+.blizost {
+  display: inline-block;
+  padding: 20px;
+  text-align: left;
+}
+
+.main-blok3 {
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  margin: 40px;
+  box-sizing: border-box;
+  color: black;
+ position: relative;
+ 
+}
+
+.about {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.main-blok4 {
+}
