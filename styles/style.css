@@ -65,7 +65,6 @@ body {
   display: flex;
    background: url(images/banner.png);
    width: 100px;
-   
   
 }
 .main-blok1__images {
@@ -164,9 +163,49 @@ body {
 
 .main-blok3 {
   background: #f7f7f7;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   padding: 80px;
+  box-sizing: border-box;
+  color: black;
+ position: relative;
+ font-weight: 500;
+ min-width: 1024px;
+ width: 100%;
+ height: auto;
+}
+
+.about {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+
+
+.about div {
+  display: flex;
+
+
+}
+
+
+.foto1 {
+  display: flex;
+  height: 290px;
+position: relative;
+left: 550px;
+top: -100px;
+
+}
+.main-blok4 {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
   margin: 40px;
   box-sizing: border-box;
   color: black;
@@ -174,11 +213,11 @@ body {
  
 }
 
-.about {
-  position: absolute;
-  top: 20px;
-  left: 50px;
-}
+.foto2 {
+  display: flex;
+  height: 290px;
+position: relative;
+left: 400px;
+top: -150px;
 
-.main-blok4 {
 }
