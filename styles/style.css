@@ -139,7 +139,7 @@ body {
   align-self: flex-end;
   position: absolute;
   top:-20px;
-  right: 110px;
+  right: 350px;
 
 }
 
@@ -223,4 +223,62 @@ padding: 20px;
 float: left;
 height: 200px;
 
+}
+
+
+.form {
+  background: #f7f7f7;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  box-sizing: border-box;
+  color: black;
+ position: relative;
+ width: 100%;
+
+
+}
+
+
+
+h2 {
+
+  align-self: center;
+  position: absolute;
+  top: 20px;
+  left: 480px;
+}
+.fieldset1 {
+  min-width: 25em;
+  padding-left: 10px;
+  padding-right: 15px;
+  border: 2px solid #038686;
+  margin: 3em;
+  position: absolute;
+  top: 40px;
+  left: 400px;
+}
+.fieldset2 {
+  min-width: 25em;
+  padding-left: 10px;
+  padding-right: 15px;
+  border: 2px solid #038686;
+  margin: 3em;
+  border-radius: 3px;
+  position: absolute;
+  top: 130px;
+  left: 400px;
+}
+
+legend {
+  color: rgb(7, 202, 216);
+  font-weight: bold;
+}
+
+button {
+  
+  position: absolute;
+  top: 300px;
+  left: 450px;
 }
