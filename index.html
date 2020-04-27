@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="button1">
-          <a href="#">Забронировать</a>
+          <a href="#form">Забронировать</a>
         </div>
       </div>
 
@@ -79,7 +79,7 @@
 
 
       <div class="main-blok4">
-        
+
         <h2 class="mesto">Места для отдыха</h2>
         <img class="foto2" src="images/moon-2.jpg" alt="moon">
         <div class="infa2">
@@ -89,48 +89,61 @@
           <br>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный
           материк».</br>
         </div>
-</div>
+      </div>
 
-      
-     
-      <form>
+
+
+      <form id="form">
         <div class="container">
-        <h2>Оставьте заявку сегодня!</h2>
+          <h2>Оставьте заявку сегодня!</h2>
 
-        <fieldset><legend>Параметры квартиры</legend>
-          <div>
-            <label for="name">Количество комнат: </label>
-            <input type="text" id="name" value="1">
-          </div>
-          <div>
-            <label for="pwd">Отделка: </label>
-            <input type="password" id="pwd" value="Отделка">
-          </div>
-        </fieldset>
-        
+          <fieldset>
+            <legend>Параметры квартиры</legend>
+            <div>
+              <label for="name">Количество комнат:</label>
+              <select>
+                <option label="1" value="1" selected>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
 
-        <fieldset><legend>Контактная информация</legend>
-          <div>
-            <label for="name">Имя: </label>
-            <input type="text" id="name">
-          </div>
-          <div>
-            <label for="pwd">Телефон: </label>
-            <input type="password" id="pwd">
-          </div>
-          <div>
-            <label for="pwd">E-mail: </label>
-            <input type="password" id="pwd">
-          </div>
-        </fieldset>
+            </div>
+            <div>
+              <label for="pwd">Отделка: </label>
+              <select>
+                <option label="без отделки" value="1" selected>без отделки</option>
+                <option>отделка 50%</option>
+                <option>с отделкой</option>
+
+              </select>
+            </div>
+          </fieldset>
+
+
+          <fieldset>
+            <legend>Контактная информация</legend>
+            <div>
+              <label for="name">Имя: </label>
+              <input type="text" id="name">
+            </div>
+            <div>
+              <label for="pwd">Телефон: </label>
+              <input type="password" id="pwd">
+            </div>
+            <div>
+              <label for="pwd">E-mail: </label>
+              <input type="password" id="pwd">
+            </div>
+          </fieldset>
+          <p><button>Отправить</button></p>
 
 
       </form>
-     
 
-      </div>
 
-</div>
+    </div>
+
+    </div>
   </main>
 
   <footer class=footer>Подвал сайта</footer>
