@@ -22,6 +22,7 @@ body {
 .header {
   display: flex;
   background-color:white;
+
   
 }
 
@@ -79,40 +80,37 @@ align-items: center;
 
 
 .main-blok1 {
-  display: flex;
+  display: inline-block;
    background: url(images/banner.png);
-   width: 100px;
+   width: 100%;
+
   
 }
-.main-blok1__images {
-  display:  flex;
-  position: relative;
-  box-sizing: border-box;
+
+.banner {
+  width: 100%;
+
 }
-.img-center {
-  padding: 20px;
-  box-sizing: border-box;
-  position: absolute;
-  left: 500px;
-  top: 300px;
+.center {
+ display: flex;
+ align-self: center;
 }
+.center-logo {
+  display: block;
+  margin: 0 auto;
+} 
 .main-blok1__info h1 {
-  padding: 20px;
-  position: absolute;
-  color: white;
-  left: 400px;
-  top: 650px;
-  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  
 }
 
-.main-blok1__info span {
-  padding: 20px;
-  position: absolute;
-  color: white;
-  left: 550px;
-  top: 790px;
-  font-weight: bold;
+.main-blok1__info p {
+  display: flex;
+  align-items: center;
+  justify-content: center
+ 
 }
 .button1 {
   background: transparent;
@@ -121,11 +119,14 @@ align-items: center;
   color: white;
   padding: 15px 32px;
   font-size: 16px;
-  position: absolute;
-  left: 600px;
-  top: 940px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center
+ 
 }
+
+
 .main-blok2 {
   background: white;
   display: flex;
