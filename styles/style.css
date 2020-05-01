@@ -86,30 +86,37 @@ align-items: center;
 
   
 }
-
 .banner {
-  width: 100%;
-
+  position: relative;
 }
+
 .center {
  display: flex;
- align-self: center;
+ align-items: center;
+ justify-content: center;
+
 }
 .center-logo {
-  display: block;
-  margin: 0 auto;
+ 
+position: absolute;
+top: 550px;
+left: 500px;
+ 
 } 
 .main-blok1__info h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
+  position: absolute;
+  top: 850px;
+  left: 500px;
+  color: white;
+   
 }
 
 .main-blok1__info p {
-  display: flex;
-  align-items: center;
-  justify-content: center
+  position: absolute;
+  top: 900px;
+  left: 520px;
+  color: white;
+   
  
 }
 .button1 {
@@ -120,9 +127,9 @@ align-items: center;
   padding: 15px 32px;
   font-size: 16px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center
+  position: absolute;
+top: 950px;
+left: 540px;
  
 }
 
@@ -143,22 +150,15 @@ align-items: center;
 
 .section1 {
   align-self: flex-start;
-  position: absolute;
-  top:-20px;
-  left:50px;
+ 
 }
 .section2 {
   align-self: center;
-  position: absolute;
-  top: -20px;
-  left: 420px;
+  
 }
 .section3 {
   align-self: flex-end;
-  position: absolute;
-  top:-20px;
-  right: 350px;
-
+ 
 }
 
 .vid {
