@@ -15,6 +15,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
     color: #303846;
+    height: 100%;
+  padding: 0;
+  margin: 0;
 
 }
  
@@ -78,6 +81,10 @@ align-items: center;
 
  }
 
+
+.main {
+  width: 100%;
+}
 
 .main-blok1 {
   display: inline-block;
@@ -268,25 +275,19 @@ h2 {
   left: 480px;
 }
 .fieldset1 {
-  min-width: 25em;
-  padding-left: 10px;
-  padding-right: 15px;
-  border: 2px solid #038686;
-  margin: 3em;
-  position: absolute;
-  top: 40px;
-  left: 400px;
+  display: inline;
+	overflow: auto;
+	width: 46%;
+	margin: 2%;
+	padding: 15px;
 }
 .fieldset2 {
-  min-width: 25em;
-  padding-left: 10px;
-  padding-right: 15px;
-  border: 2px solid #038686;
-  margin: 3em;
-  border-radius: 3px;
-  position: absolute;
-  top: 180px;
-  left: 400px;
+  display: inline;
+	overflow: auto;
+	width: 46%;
+	margin: 2%;
+	padding: 15px;
+  
 }
 
 legend {
@@ -310,10 +311,70 @@ line-height:35px;
 
   label {
     float:left;
+    padding-right:10px;
   }
   
+.select {
+ width: 137px;
+ text-align: center;
+ border-radius: 6px;
+ -moz-border-radius: 6px;
+
+}
+
+input {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+}
   button {
-    position: absolute;
-    top: 500px;
-    left: 450px;
+    display: inline;
+    overflow: auto;
+    padding: 15px;
+    border: 2px solid #038686;
+    background: transparent;
+    border-radius: 9px;
+    font-size: 16px;
+  padding: 15px 32px;
+color:#038686 ;
   }
+
+footer {
+  display: inline;
+    background: black;
+
+
+
+}
+
+.footer__block1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.footer__block1 p {
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.footer__block2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.footer__2 {
+  padding: 10px;
+}
+
+.footer__block3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
