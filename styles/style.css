@@ -96,11 +96,21 @@ align-items: center;
   display: inline-block;
    background: url(images/banner.png);
    margin-top: 60px;
-
+   overflow: hidden;
   
 }
 .banner {
   position: relative;
+  /* растягиваем по ширине окна */
+  width: 100vw;
+  /* скрываем всё, что не поместилось в экран */
+  overflow: hidden;
+  /* центрируем обёртку */
+  left: 50%;
+  transform: translate(-50%);
+  /* центрируем картинки */
+  display: flex;
+  justify-content: center;
 }
 
 .center {
@@ -285,30 +295,39 @@ height: 200px;
   padding: 80px;
   box-sizing: border-box;
   color: black;
- position: relative;
+  width: 100%;
+ margin: 0 auto;
+ height: 700px;
+ float: left;
+
+
 }
 
+.content {
+  clear: both;
+	height: 200px;
+	position: relative;
+}
 
 
 .text {
-  display: inline-block;
-  align-self: center;
+ position: relative;
+ padding: 10px;
+ left: 10%;
 }
 .fieldset1 {
-  display: inline;
-  padding: 15px;
-  position: relative;
-  top:20px;
-  left: 100px;
+  display: flex;
+  padding: 30px;
+  margin: 15px;
+height: 170px;
   
 }
 .fieldset2 {
-  display: inline;
-	padding: 15px;
-  position: relative;
-  top: 200px;
-  left: -170px;
-}
+  display: flex;
+  padding: 30px;
+  margin: 15px;
+  height: 170px;
+}  
 
 legend {
   color: rgb(7, 202, 216);
@@ -346,19 +365,24 @@ input {
   border-radius: 6px;
   -moz-border-radius: 6px;
 }
+
   button {
-    display: inline;
-    overflow: auto;
-    padding: 15px;
     border: 2px solid #038686;
     background: transparent;
     border-radius: 9px;
     font-size: 16px;
   padding: 15px 32px;
 color:#038686 ;
-position: relative;
-top:400px;
-left: -420px;
+float: left;
+padding: 20px;
+margin: 10px;
+  }
+
+
+  .main:after {
+    content: "";
+    clear: both;
+    display: table;
   }
 
 
@@ -375,6 +399,8 @@ width: 100%;
  align-items: center;
 }
   
+
+
 
 .menu-footer {
   display: inline-block;
@@ -410,6 +436,7 @@ top: 10px;
     position: relative;
   top:-40px;
   left: 5px;
+  font-size: 14px;
   
   }
 
@@ -420,8 +447,10 @@ top:10px;
 }
 
 .menu2 li {
+  font-size: 14px;
   position: relative;
-
+  left: 40px;
+  top:20px;
 }
 
 
@@ -432,4 +461,9 @@ top:10px;
 }
 
 
-
+.menu3 li {
+  font-size: 14px;
+  position: relative;
+  left: 40px;
+  top:20px;
+}
