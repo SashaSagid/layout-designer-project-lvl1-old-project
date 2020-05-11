@@ -423,11 +423,12 @@ top: 10px;
 }
 .name {
   display: flex;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
   position: relative;
   top:-60px;
   left: 60px;
+  font-size: 14px;
   
 }
 
@@ -436,7 +437,7 @@ top: 10px;
     position: relative;
   top:-40px;
   left: 5px;
-  font-size: 14px;
+  font-size: 12px;
   
   }
 
@@ -447,10 +448,10 @@ top:10px;
 }
 
 .menu2 li {
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
-  left: 40px;
-  top:20px;
+  left: 10px;
+  top:10px;
 }
 
 
@@ -462,8 +463,8 @@ top:10px;
 
 
 .menu3 li {
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
-  left: 40px;
-  top:20px;
+  left: 5px;
+  top: 10px;
 }
