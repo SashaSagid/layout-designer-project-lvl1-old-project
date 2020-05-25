@@ -12,10 +12,10 @@ a {
 
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-family: Arial, sans-serif;
   font-size: 16px;
-    color: #303846;
-    height: 100%;
+  color: black;
   padding: 0;
   margin: 0;
 
@@ -93,66 +93,47 @@ align-items: center;
 }
 
 .main-blok1 {
-  display: inline-block;
-   background: url(images/banner.png);
-   margin-top: 60px;
-   overflow: hidden;
-  
-}
-.banner {
-  position: relative;
-  /* растягиваем по ширине окна */
-  width: 100vw;
-  /* скрываем всё, что не поместилось в экран */
-  overflow: hidden;
-  /* центрируем обёртку */
-  left: 50%;
-  transform: translate(-50%);
-  /* центрируем картинки */
   display: flex;
-  justify-content: center;
+   background-image: url(../images/banner.png);
+   background-position: center center;
+  background-repeat: no-repeat;
+  align-items: center;
+  flex-direction: column;
+ height: 450px;
 }
 
-.center {
- display: flex;
- align-items: center;
- justify-content: center;
-
-}
 .center-logo {
- 
-position: absolute;
-top: 550px;
-left: 500px;
- 
+ height: 150px;
+ width: 150px;
+ margin-top: 80px;
 } 
-.main-blok1__info h1 {
-  position: absolute;
-  top: 850px;
-  left: 500px;
-  color: white;
-   
+.main-blok1__info1 {
+  display: block;
+color: white;
+margin-bottom: 15px;
+margin-top: 20px;
+font-size: 35px;
+font-weight: bold;
+ 
 }
 
-.main-blok1__info p {
-  position: absolute;
-  top: 900px;
-  left: 520px;
+.main-blok1__info2 {
+  display: block;
   color: white;
-   
+  margin-bottom: 10px;
+margin-top: 10px;
  
 }
+
 .button1 {
+  display: inline-block;
   background: transparent;
   border: 1px solid white;
-  border-radius: 9px;
+  border-radius: 7px;
   color: white;
   padding: 15px 32px;
   font-size: 16px;
   font-weight: bold;
-  position: absolute;
-top: 950px;
-left: 540px;
  
 }
 
