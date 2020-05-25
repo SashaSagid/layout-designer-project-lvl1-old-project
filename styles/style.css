@@ -23,73 +23,58 @@ body {
  
 
 header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 9999;
+display: flex;
+justify-content: space-between;
+position: fixed;
   background-color: white;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 0;
+  right: 0;
+  top: 0;
+
+}
+
   
-
-}
-
-.my__header {
-height: 50px;
-}
-    
-
 .logo { 
 display: flex;
 align-items: center;
-font-weight: 700;
-
 }
-
-.logo img {
+.logo_link {
   display: flex;
-  padding: 10px;
-margin: 10px;
-width: 50px;
-height: 50px;
+  align-items: center;
+  text-decoration: none;
 }
+.logo img {
+display: flex;
+height: 30px;
+width: 30px;
+}
+.logo_png {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
 
+}
 .right {
 display: flex;
-position: relative;
-left: 950px;
-top: -80px;
-}
-.menu {
-display: flex;
-width: 70px;
-height: 70px;
-padding: 10px;
-margin: 10px;
 align-items: center;
-
 }
- 
-.menu li {
-  display: inline;
-  list-style-type: none;
-  margin: 10px;
-  
- }
-
- .menu a {
-  font-weight: 700;
-  text-align: justify-all;
- }
-
  
  .head {
-  white-space:nowrap;
-
+  display: block;
+  text-decoration: none;
+  margin-right: 10px;
+  text-decoration: solid;
+font-size: 14px;
+font-weight: bold;
  }
 
 
 .main {
-  width: 100%;
+  display: block;
+  margin-top: 50px;
 }
 
 .main-blok1 {
@@ -140,44 +125,53 @@ margin-top: 10px;
 
 .main-blok2 {
   background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  margin: 10px;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 45px;
   box-sizing: border-box;
   color: black;
  position: relative;
  
 }
 
+.container_blok2 {
+display: flex;
+justify-content: space-between;
+width: 1000px;
+margin-left: 0px;
+margin-right: -200px;
+margin-bottom: 0px;
+}
 
 .section1 {
-  align-self: flex-start;
+  display: block;
+  width: 30%;
  
 }
-.section1 h2 {
-  display: flex;
-  position: relative;
-  top: 10px;
-  left: 20px;
+.sect1_h2 {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-block-end: 15px;
+  margin-block-start: 15px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
 }
 
 .section2 {
-  align-self: center;
+  
   
 }
 .section2 h2 {
   display: flex;
-  position: relative;
-  top: 10px;
-  left: 20px;
+
 }
 
 .section3 {
-  align-self: flex-end;
+ 
  
 }
+
 
 .section3 h2 {
   display: flex;
@@ -187,21 +181,22 @@ margin-top: 10px;
 }
 
 .vid {
-  display: inline-block;
-  text-align: left;
-  padding: 20px;
+  display: block;
+  
 }
 
 .infra {
-  display: inline-block;
-  padding: 20px;
-  flex-grow: unset;
+  display: block;
+ 
 }
 .blizost {
-  display: inline-block;
-  padding: 20px;
-  text-align: left;
+  display: block;
+ 
 }
+
+
+
+
 
 .main-blok3 {
   background: #f7f7f7;
