@@ -8,6 +8,7 @@ html {
 }
 a { 
   text-decoration: none;
+  outline: none;
 
 
 }
@@ -22,7 +23,7 @@ body {
 }
  
 
-header {
+.header {
 display: flex;
 justify-content: space-between;
 position: fixed;
@@ -73,7 +74,6 @@ font-weight: bold;
 
 
 .main {
-  display: block;
   margin-top: 50px;
 }
 
@@ -136,7 +136,7 @@ display: flex;
 justify-content: center;
 width: 1000px;
 margin: 0 auto;
-margin-left: 200px;
+margin-left: 0px;
 margin-bottom: 0px;
 margin-top: 0px;
 }
@@ -181,7 +181,7 @@ margin-top: 0px;
   justify-content: center;
   width: 1000px;
 margin: 0 auto;
-margin-left: 200px;
+margin-left: 0px;
 margin-bottom: 0px;
 margin-top: 0px;
 }
@@ -234,7 +234,7 @@ margin-inline-start: 0px;
   justify-content: center;
   width: 1000px;
 margin: 0 auto;
-margin-left: 200px;
+margin-left: 0px;
 margin-bottom: 0px;
 margin-top: 0px;
 }
@@ -272,7 +272,6 @@ margin-top: 0px;
 
 .foto2 {
 float: left;
-height: 200px;
 
 }
 
@@ -286,7 +285,6 @@ height: 200px;
   color: black;
   width: 100%;
  margin: 0 auto;
- height: 700px;
  float: left;
 
 
@@ -294,7 +292,6 @@ height: 200px;
 
 .content {
   clear: both;
-	height: 200px;
 	position: relative;
 }
 
@@ -308,14 +305,14 @@ height: 200px;
   display: flex;
   padding: 30px;
   margin: 15px;
-height: 170px;
+
   
 }
 .fieldset2 {
   display: flex;
   padding: 30px;
   margin: 15px;
-  height: 170px;
+ 
 }  
 
 legend {
