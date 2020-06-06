@@ -93,7 +93,6 @@ font-weight: bold;
  margin-top: 80px;
 } 
 .main-blok1__info1 {
-  display: block;
 color: white;
 margin-bottom: 15px;
 margin-top: 20px;
@@ -103,7 +102,6 @@ font-weight: bold;
 }
 
 .main-blok1__info2 {
-  display: block;
   color: white;
   margin-bottom: 10px;
 margin-top: 10px;
@@ -125,7 +123,6 @@ margin-top: 10px;
 
 .main-blok2 {
   background: white;
-  display: block;
   padding-top: 40px;
   padding-bottom: 45px;
  
@@ -136,18 +133,13 @@ display: flex;
 justify-content: center;
 width: 1000px;
 margin: 0 auto;
-margin-left: 0px;
-margin-bottom: 0px;
-margin-top: 0px;
 }
 
 .section {
-  display: block;
   width: 300px;
  
 }
 .section_h2 {
-  display: block;
   font-size: 20px;
   font-weight: bold;
   margin-block-end: 15px;
@@ -158,7 +150,6 @@ margin-top: 0px;
 
 
 .section_p {
-  display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0;
@@ -168,7 +159,6 @@ margin-top: 0px;
 
 .main-blok3 {
   background: #f7f7f7;
-  display: block;
   justify-content: center;
   color: black;
   padding-top: 40px;
@@ -181,17 +171,10 @@ margin-top: 0px;
   justify-content: center;
   width: 1000px;
 margin: 0 auto;
-margin-left: 0px;
-margin-bottom: 0px;
-margin-top: 0px;
 }
 
-.block3 {
-  display: block;
-}
 
 .about {
-display: block;
 font-size: 20px;
 font-weight: bold;
 margin-block-end: 1em;
@@ -202,7 +185,6 @@ margin-inline-start: 0px;
 }
   
 .infa1 {
-  display: block;
   margin-block-start: 15px;
   margin-block-end: 15px;
   margin-inline-start: 0px;
@@ -216,14 +198,12 @@ margin-inline-start: 0px;
 }
 
 .blok3_foto img {
-  display: block;
   height: 200px;
   width: 280px;
 }
 
 .main-blok4 {
   background: white;
-  display: block;
   color: black;
   padding-top: 40px;
   padding-bottom: 45px;
@@ -234,9 +214,6 @@ margin-inline-start: 0px;
   justify-content: center;
   width: 1000px;
 margin: 0 auto;
-margin-left: 0px;
-margin-bottom: 0px;
-margin-top: 0px;
 }
 
 .blok4_foto {
@@ -245,15 +222,11 @@ margin-top: 0px;
 }
 
 .blok4_foto img {
-  display: block;
   height: 200px;
   width: 280px;
 }
-.blok4 {
-  display: block;
-}
+
 .mesto {
-  display: block;
   font-size: 20px;
   font-weight: bold;
   margin-block-end: 1em;
@@ -263,7 +236,6 @@ margin-top: 0px;
 }
 
 .infa2 {
-  display: block;
   margin-block-start: 15px;
   margin-block-end: 15px;
   margin-inline-start: 225px;
