@@ -42,6 +42,7 @@ position: fixed;
 display: flex;
 align-items: center;
 }
+
 .logo_link {
   display: flex;
   align-items: center;
@@ -285,19 +286,12 @@ float: left;
  padding: 10px;
  left: 10%;
 }
-.fieldset1 {
+.fieldset {
   display: flex;
   padding: 30px;
   margin: 15px;
-
   
 }
-.fieldset2 {
-  display: flex;
-  padding: 30px;
-  margin: 15px;
- 
-}  
 
 legend {
   color: rgb(7, 202, 216);
@@ -305,18 +299,12 @@ legend {
 }
 
 
-.field1 {
+.field {
 clear: both ; 
 text-align: right;
 line-height:35px;
 
 }
-
-.field2 {
-  clear: both; 
-  text-align:right;
-  line-height:35px;
-  }
 
   label {
     float:left;
@@ -417,13 +405,11 @@ top:10px;
   top:10px;
 }
 
-
 .menu3 {
   position: relative;
 left: 550px;
 top:10px;
 }
-
 
 .menu3 li {
   font-size: 12px;
