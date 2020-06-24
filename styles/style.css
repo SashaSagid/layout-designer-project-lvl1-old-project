@@ -131,17 +131,16 @@ margin-top: 10px;
   color: white;
   }
 
-
-
-
 .main-blok2 {
   background: white;
+}
+  
+.main-padding {
   padding-top: 40px;
   padding-bottom: 45px;
- 
 }
 
-.container_blok2 {
+.container_blok {
 display: flex;
 justify-content: center;
 width: 1000px;
@@ -161,7 +160,6 @@ margin: 0 auto;
   margin-inline-start: 0px;
 }
 
-
 .section_p {
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -169,48 +167,43 @@ margin: 0 auto;
   margin-inline-end: 0;
   }
 
-
 .main-blok3 {
   background: #f7f7f7;
   justify-content: center;
   color: black;
-  padding-top: 40px;
-  padding-bottom: 45px;
-
 }
-
-.container_blok3 {
-  display: flex;
-  justify-content: center;
-  width: 1000px;
-margin: 0 auto;
-}
-
 
 .about {
 font-size: 20px;
 font-weight: bold;
 margin-block-end: 1em;
 margin-block-start: 1em;
+
+}
+
+ .about-end-start-0 {
 margin-inline-end: 0px;
 margin-inline-start: 0px;
   
 }
   
-.infa1 {
+.infa {
   margin-block-start: 15px;
   margin-block-end: 15px;
+}
+
+.infa-start0 {
   margin-inline-start: 0px;
   margin-inline-end: 225px;
  
 }
 
-.blok3_foto {
+.blok_foto {
   display: flex;
   align-items: center;
 }
 
-.blok3_foto img {
+.blok_foto img {
   height: 200px;
   width: 280px;
 }
@@ -218,20 +211,6 @@ margin-inline-start: 0px;
 .main-blok4 {
   background: white;
   color: black;
-  padding-top: 40px;
-  padding-bottom: 45px;
-}
-
-.container_blok4 {
-  display: flex;
-  justify-content: center;
-  width: 1000px;
-margin: 0 auto;
-}
-
-.blok4_foto {
-  display: flex;
-  align-items: center;
 }
 
 .blok4_foto img {
@@ -239,27 +218,14 @@ margin: 0 auto;
   width: 280px;
 }
 
-.mesto {
-  font-size: 20px;
-  font-weight: bold;
-  margin-block-end: 1em;
-  margin-block-start: 1em;
-  margin-inline-end: 0px;
-  margin-inline-start: 225px;
-}
-
-.infa2 {
-  margin-block-start: 15px;
-  margin-block-end: 15px;
+.infa-end0 {
   margin-inline-start: 225px;
   margin-inline-end: 0px;
 }
 
 .foto2 {
 float: left;
-
 }
-
 
 .form {
   background: #f7f7f7;
@@ -271,15 +237,12 @@ float: left;
   width: 100%;
  margin: 0 auto;
  float: left;
-
-
 }
 
 .content {
   clear: both;
 	position: relative;
 }
-
 
 .text {
  position: relative;
@@ -290,14 +253,13 @@ float: left;
   display: flex;
   padding: 30px;
   margin: 15px;
-  
+
 }
 
 legend {
   color: rgb(7, 202, 216);
   font-weight: bold;
 }
-
 
 .field {
 clear: both ; 
@@ -324,26 +286,25 @@ input {
   -moz-border-radius: 6px;
 }
 
-
 .bdr-color {
   border: 1px solid #038686;
 color:#949494 ;
 }
 
+.btn-margin {
+  margin-left: 15px;
+}
   
-
   .main:after {
     content: "";
     clear: both;
     display: table;
   }
 
-
 .footer {
   background-color: #303846;
   color: white;
 width: 100%;
-
 }
 
 .footer_block {
@@ -352,20 +313,26 @@ width: 100%;
  align-items: center;
 }
   
-
 .menu-footer {
   display: inline-block;
   margin: 10px;
   padding: 10px;
 }
 
-
 .menu1 {
-  position: relative;
-left: 200px;
+position: relative;
 top: 10px;
 }
+.menu1-left1 {
+  left: 200px;
+}
 
+.menu1-left2 {
+left: 350px;
+}
+.menu1-left3 {
+  left: 550px;
+}
 .logo_footer {
   display: flex;
  padding: 10px;
@@ -389,31 +356,11 @@ top: 10px;
   top:-40px;
   left: 5px;
   font-size: 12px;
-  
   }
 
-.menu2 {
-  position: relative;
-left: 350px;
-top:10px;
-}
-
-.menu2 li {
+.menu1 li {
   font-size: 12px;
   position: relative;
-  left: 10px;
   top:10px;
-}
-
-.menu3 {
-  position: relative;
-left: 550px;
-top:10px;
-}
-
-.menu3 li {
-  font-size: 12px;
-  position: relative;
-  left: 5px;
-  top: 10px;
+  left: 10px;
 }
