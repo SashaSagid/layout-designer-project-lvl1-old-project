@@ -86,33 +86,42 @@ font-weight: bold;
   background-repeat: no-repeat;
   align-items: center;
   flex-direction: column;
- height: 450px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 15px 20px 15px;
+margin: 20px 15px 20px 15px;
+
 }
 
 .center-logo {
- height: 150px;
- width: 150px;
+ height: 130px;
+ width: 130px;
  margin-top: 80px;
 } 
-.main-blok1__info1 {
+
+h1 {
+  display:inline-block;
 color: white;
-margin-bottom: 15px;
-margin-top: 20px;
+margin-bottom: 10px;
+margin-top: 10px;
 font-size: 35px;
 font-weight: bold;
  
 }
 
-.main-blok1__info2 {
+.main-blok1__info1 {
   color: white;
   margin-bottom: 10px;
-margin-top: 10px;
- 
+margin-top: 5px;
+
 }
 
 .btn {
   border-radius: 7px;
-  padding: 15px 32px;
+  padding: 15px 15px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  
 }
 
 .btn-size {
@@ -133,6 +142,9 @@ margin-top: 10px;
 
 .main-blok2 {
   background: white;
+  width: 100%;
+  padding: 20px 15px 20px 15px;
+  margin: 20px 15px 20px 15px;
 }
   
 .main-padding {
@@ -149,15 +161,11 @@ margin: 0 auto;
 
 .section {
   width: 300px;
- 
 }
-.section_h2 {
+
+h2 {
   font-size: 20px;
   font-weight: bold;
-  margin-block-end: 15px;
-  margin-block-start: 15px;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
 }
 
 .section_p {
@@ -171,7 +179,11 @@ margin: 0 auto;
   background: #f7f7f7;
   justify-content: center;
   color: black;
+  width: 100%;
+  padding: 40px 15px 40px 15x;
+  margin: 40px 15px 40px 15px;
 }
+
 
 .about {
 font-size: 20px;
@@ -180,21 +192,16 @@ margin-block-end: 1em;
 margin-block-start: 1em;
 
 }
-
- .about-end-start-0 {
-margin-inline-end: 0px;
-margin-inline-start: 0px;
-  
-}
   
 .infa {
-  margin-block-start: 15px;
-  margin-block-end: 15px;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+
 }
 
 .infa-start0 {
   margin-inline-start: 0px;
-  margin-inline-end: 225px;
+  margin-inline-end: 250px;
  
 }
 
@@ -211,6 +218,9 @@ margin-inline-start: 0px;
 .main-blok4 {
   background: white;
   color: black;
+  width: 100%;
+  padding: 40px 20px 40px 20px;
+  margin: 40px 20px 40px 20px;
 }
 
 .blok4_foto img {
@@ -231,12 +241,11 @@ float: left;
   background: #f7f7f7;
   display: flex;
   justify-content: center;
-  padding: 80px;
   box-sizing: border-box;
   color: black;
-  width: 100%;
- margin: 0 auto;
- float: left;
+ width: 100%;
+ padding: 0px 20px 0px 20px;
+ margin: 0px 20px 0px 20px;
 }
 
 .content {
@@ -244,11 +253,6 @@ float: left;
 	position: relative;
 }
 
-.text {
- position: relative;
- padding: 10px;
- left: 10%;
-}
 .fieldset {
   display: flex;
   padding: 30px;
@@ -288,7 +292,7 @@ input {
 
 .bdr-color {
   border: 1px solid #038686;
-color:#949494 ;
+color: #038686;
 }
 
 .btn-margin {
@@ -305,6 +309,8 @@ color:#949494 ;
   background-color: #303846;
   color: white;
 width: 100%;
+padding: 0px 20px 0px 20px;
+margin: 0px 20px 0px 20px;
 }
 
 .footer_block {
